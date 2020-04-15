@@ -92,7 +92,7 @@ a:hover{
     right:0;
     bottom:0;
     height:100vh;
-    overflow: hidden;
+    overflow: scroll;
     transition: .5s ease;
     transform:translateY(-100%);
     z-index:9999;
