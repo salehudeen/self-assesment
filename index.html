@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <title>Self Assessment COVID19</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/plugins/feather-icons/feather.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162237944-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-162237944-1');
+    </script>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+</head>
+<body class="intro">
+    <section id="intro">
+        <div class="virus">
+            <div class="item"><img src="assets/images/background/virus.svg" alt=""></div>
+            <div class="item"><img src="assets/images/background/virus-2.svg" alt=""></div>
+            <div class="item"><img src="assets/images/background/bacteria.svg" alt=""></div>
+            <div class="item"><img src="assets/images/background/virus.svg" alt=""></div>
+            <div class="item"><img src="assets/images/background/virus-2.svg" alt=""></div>
+            <div class="item"><img src="assets/images/background/bacteria.svg" alt=""></div>
+        </div>
+        <div class="container h-100">
+            <div class="row h-100 py-5 py-lg-0">
+                <div class="col-md-6 d-flex align-items-center order-1 order-md-0 mt-5 mt-md-0">
+                    <div class="text-center text-lg-left">
+                        <h1 class="font-weight-black mb-4">SELF ASSESSMENT COVID19</h1>
+                        <p>
+                        This is a simple website-based testing tool that can help recommend whether you need to seek advice, isolate yourself or contact the hotline.
+                        </p>
+                        <p>
+                            <video width="400" height="300"autoplay muted loop>
+                                <source src="info.mp4" type="video/mp4">
+                            </video>
+                       </p>
+                        <button class="btn-start btn btn-info py-3 px-5 shadow mt-3 mt-lg-5"><h5 class="m-0">Start</h5></button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="assets/images/background/hero.svg" alt="" width="100%" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <div class="row h-100">
+            <div class="col-lg-3 bg-light d-flex align-items-center quiz-sidebar">
+                <div class="info text-center p-4">
+                    <div class="image mb-4"><img src="assets/images/background/sidebar-img.svg" alt="" width="100" height="auto"></div>
+                    <h5 class="font-weight-bold mb-4">WHY TESTING IS IMPORTANT!</h5>
+                    <p>
+                    Now, the world is fighting a very fast virus spread. Early detection of Corona Virus symptoms will minimize the spread of this virus.
+                    </p>
+                    <h5 class="font-weight-bold mb-4">INFORMATION</h5>
+                    <p>
+                        People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of coronavirus disease (COVID-19) are fever, tiredness, and dry cough. Most people (about 80%) recover from the disease without needing special treatment.
+More rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="col-lg bg-white overflow-auto quiz-content">
+                <div class="row h-100 justify-content-center align-items-center form-nama">
+                    <div class="col-md-8">
+                        <h4 class="mb-4">Your name please?</h4>
+                        <form action="" id="form-start-quiz">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="nama" required>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-info py-3 px-5" type="submit"><h5 class="m-0">Start Test</h5></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="chatbox p-5">
+
+                    <div class="item default mb-5 active">
+                        <div class="row mb-3">
+                            <div class="col-auto">
+                                <div class="avatar"><img src="assets/images/background/avatar.svg" alt="" width="60"></div>
+                            </div>
+                            <div class="col">
+                                <div class="chatbubble">
+                                    <div class="text">
+                                        Hello <strong class="nama"></strong>, How are you? I will give a few questions, please answer honestly
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
